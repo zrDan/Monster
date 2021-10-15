@@ -1,0 +1,85 @@
+.monster-container {
+  display: flex;
+  height: calc(100vh - 11.3rem);
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.monster-presentation {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 98%;
+  width: 90%;
+  align-content: center;
+  justify-items: center;
+}
+
+.animation-container {
+  animation: fadeIn 2.5s;
+}
+
+.monster-description {
+  text-align: justify;
+  display: flex;
+  flex-flow: column;
+  height: 28rem;
+  width: 25rem;
+}
+
+.brand-banner {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  height: 7rem;
+}
+
+.brand-banner img {
+  height: 100%;
+}
+
+.description {
+  font-size: 1rem;
+}
+
+.description > p:last-child {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.monster-type {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.monster-type div {
+  cursor: pointer;
+}
+
+.inactive > img {
+  transition: all 0.4s ease-in;
+}
+
+.inactive:hover > img {
+  transition: all 0.4s ease-out;
+  height: 10em;
+}
+
+.monster-type img {
+  height: 100px;
+}
+
+.active-drink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 12rem;
+}
+
+.active-drink img {
+  animation: monster-expand 1s;
+  height: 370px;
+}

@@ -1,0 +1,37 @@
+.monster-category {
+  display: flex;
+  height: 6rem;
+  justify-content: center;
+}
+
+.category-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0 4rem;
+  width: 10rem;
+}
+
+.category-option:hover > img {
+  transition: all 0.4s ease-out;
+  height: 4.5rem;
+}
+
+.category-option img {
+  cursor: pointer;
+  height: 4rem;
+  transition: all 0.4s ease-in;
+}
+
+.monster-ultra-active {
+  border-bottom: 2px solid var(--gray-border);
+}
+
+.monster-original-active {
+  border-bottom: 2px solid var(--green-selector);
+}
+
+.monster-juice-active {
+  border-bottom: 2px solid #ffb102;
+}

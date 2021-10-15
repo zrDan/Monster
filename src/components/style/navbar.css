@@ -1,0 +1,132 @@
+.navigation {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  margin: 0 1.5rem;
+  height: 5rem;
+  border-bottom: 1px solid var(--gray-border);
+}
+
+.navigation img {
+  height: 4rem;
+  margin-left: 1rem;
+}
+
+.entertainment {
+  position: relative;
+}
+
+ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 4.6em;
+  left: 0;
+  display: none;
+  width: 80%;
+  height: 7.5rem;
+  border-right: 1px solid var(--gray-border);
+  border-left: 1px solid var(--gray-border);
+  border-bottom: 1px solid var(--gray-border);
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: var(--bg-black);
+}
+
+.entertainment:hover > ul {
+  animation: fadeIn 0.7s;
+}
+
+.entertainment:hover > ul,
+ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: grid;
+  align-items: center;
+}
+
+ul li {
+  clear: both;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+li > a {
+  color: var(--gray-text);
+  text-decoration: none;
+}
+
+li:hover > a {
+  color: var(--green-selector);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-options {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-options div {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0 1.7rem;
+  font-size: 0.9rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.navigation-options div a {
+  text-decoration: none;
+  color: var(--gray-text);
+}
+
+.navigation-options div a:hover {
+  color: var(--green-selector);
+}
+
+.navigation-options div:hover {
+  color: var(--green-selector);
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.serachContainer {
+  background-color: var(--gray-input);
+  display: flex;
+  margin-right: 1rem;
+  width: 85%;
+  height: 2.15rem;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.textInput input {
+  background-color: transparent;
+  color: var(--gray-text);
+  border: 0;
+  height: 1.5rem;
+  width: 90%;
+  margin-left: 0.3rem;
+  border-radius: 10px;
+}
+
+.textInput input:focus {
+  outline: none;
+}
+
+.fa-search {
+  margin-right: 0.5rem;
+}

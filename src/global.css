@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --bg-black: #0e0e0e;
+  --gray-text: #e9e9e9;
+  --gray-border: #c6c6c6;
+  --green-selector: #91c840;
+  --gray-input: rgb(106, 106, 106, 0.5);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-black);
+  color: var(--gray-text);
+  font-family: "Montserrat", sans-serif;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes monster-expand {
+  from {
+    height: 10em;
+  }
+  to {
+    height: 370px;
+  }
+}
