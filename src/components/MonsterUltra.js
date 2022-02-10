@@ -6,7 +6,7 @@ function MonsterUltra() {
       <div className="monster-description animation-container">
         <div className="brand-banner">
           <img
-            src="/media/monster-ultra/zero-ultra.png"
+            src="/media/monster-ultra/zero-ultra.webp"
             alt="monster"
             className="banner-img"
           />
@@ -34,7 +34,7 @@ function MonsterUltra() {
       </div>
       <div className="monster-type  animation-container">
         <div id="zero-ultra" className="active-drink">
-          <img src="/media/monster-ultra/zero-ultra-drink.png" alt="monster" />
+          <img src="/media/monster-ultra/zero-ultra-drink.webp" alt="monster" />
         </div>
       </div>
     </>

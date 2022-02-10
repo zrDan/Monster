@@ -26,7 +26,7 @@ function MonsterCategory() {
       dispatch({
         type: "SET_MONSTER_INFO",
         payload: {
-          cover: "/media/monster-energy/monster-energy-brand.png",
+          cover: "/media/monster-energy/monster-energy-brand.webp",
           description: [
             `¡Prueba una de las bebidas mas extremas del planeta, Monster
     Energy®!`,
@@ -51,7 +51,7 @@ function MonsterCategory() {
       dispatch({
         type: "SET_MONSTER_INFO",
         payload: {
-          cover: "/media/monster-juice/khaos.png",
+          cover: "/media/monster-juice/khaos.webp",
           description: [
             `Después de meses en el laboratorio, creamos Juice Monster.`,
             `Empezamos con nuestro sabor original de Monster, mezclamos una
@@ -79,21 +79,21 @@ function MonsterCategory() {
           className="category-option"
           onClick={handleClick("ultra")}
         >
-          <img src="/media/monster-ultra/monster-ultra.png" alt="monster" />
+          <img src="/media/monster-ultra/monster-ultra.webp" alt="monster" />
         </div>
         <div
           id="original"
           className="category-option"
           onClick={handleClick("original")}
         >
-          <img src="/media/monster-energy/monster-energy.png" alt="monster" />
+          <img src="/media/monster-energy/monster-energy.webp" alt="monster" />
         </div>
         <div
           id="juice"
           className="category-option"
           onClick={handleClick("juice")}
         >
-          <img src="/media/monster-juice/monster-juice.png" alt="monster" />
+          <img src="/media/monster-juice/monster-juice.webp" alt="monster" />
         </div>
       </div>
     </section>
