@@ -19,7 +19,7 @@ function MonsterDrinks() {
   }
 
   useEffect(() => {
-    monsterContaierType();
+    // monsterContaierType();
   }, [categoryState]);
 
   return (

@@ -1,7 +1,5 @@
-import { act } from "react-dom/test-utils";
-
 export default function Reducer(state, action) {
-  const categoryState = state.category;
+  // const categoryState = state.category;
 
   switch (action.type) {
     case "SET_CATEGORY_STATE":
