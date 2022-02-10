@@ -18,7 +18,7 @@ function MonsterOriginal() {
       dispatch({
         type: "SET_MONSTER_INFO",
         payload: {
-          cover: "/media/monster-energy/monster-energy-brand.png",
+          cover: "/media/monster-energy/monster-energy-brand.webp",
           description: [
             `¡Prueba una de las bebidas mas extremas del planeta, Monster
     Energy®!`,
@@ -45,7 +45,7 @@ function MonsterOriginal() {
       dispatch({
         type: "SET_MONSTER_INFO",
         payload: {
-          cover: "/media/monster-energy/monster-44.png",
+          cover: "/media/monster-energy/monster-44.webp",
           description: [
             `Cuando eres Lewis Hamilton, cuatro veces campeón mundial de F1, la vida se mueve a 15,000RPM y 320 KM/HR, recorrer un mundo en milisegundos necesita una bebida que le siga el paso.`,
             `Ligero, dulce y refrescante, con un final acelerado, "44", te separará del resto y te hará llevar la delantera.`,
@@ -66,7 +66,7 @@ function MonsterOriginal() {
       dispatch({
         type: "SET_MONSTER_INFO",
         payload: {
-          cover: "/media/monster-energy/monster-lo-carbs.png",
+          cover: "/media/monster-energy/monster-lo-carbs.webp",
           description: [
             `Prueba una de las bebidas más extremas del planeta, Monster Energy!®`,
             `Ahora con bajas calorías, sin sacrificar el sabor... eso es Lo-Carb Monster Energy!®`,
@@ -88,7 +88,7 @@ function MonsterOriginal() {
       dispatch({
         type: "SET_MONSTER_INFO",
         payload: {
-          cover: "/media/monster-energy/monster-absolutely-zero.png",
+          cover: "/media/monster-energy/monster-absolutely-zero.webp",
           description: [
             `Por años, gente ha bombardeado nuestro email pidiendo un Monster® con menos calorías. Ya lo tenemos... pero esta no es cualquier bebida!`,
             `Ahora, Absolutely Zero, con una composición de energía re-formulada, un nuevo sistema de endulzante, y después de miles de intentos fracasados, ¡Por fin lo perfeccionamos! `,
@@ -130,7 +130,7 @@ function MonsterOriginal() {
           onClick={handleClick("monster-original")}
         >
           <img
-            src="/media/monster-energy/monster-energy-drink.png"
+            src="/media/monster-energy/monster-energy-drink.webp"
             alt="monster"
           />
         </div>
@@ -139,7 +139,10 @@ function MonsterOriginal() {
           className="inactive"
           onClick={handleClick("monster-44")}
         >
-          <img src="/media/monster-energy/monster-44-drink.png" alt="monster" />
+          <img
+            src="/media/monster-energy/monster-44-drink.webp"
+            alt="monster"
+          />
         </div>
         <div
           id="monster-lo-carbs"
@@ -147,7 +150,7 @@ function MonsterOriginal() {
           onClick={handleClick("monster-lo")}
         >
           <img
-            src="/media/monster-energy/monster-lo-carbs-drink.png"
+            src="/media/monster-energy/monster-lo-carbs-drink.webp"
             alt="monster"
           />
         </div>
@@ -157,7 +160,7 @@ function MonsterOriginal() {
           onClick={handleClick("monster-zero")}
         >
           <img
-            src="/media/monster-energy/monster-absolutely-zero-drink.png"
+            src="/media/monster-energy/monster-absolutely-zero-drink.webp"
             alt="monster"
           />
         </div>

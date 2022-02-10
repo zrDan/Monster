@@ -17,7 +17,7 @@ function MonsterJuice() {
       dispatch({
         type: "SET_MONSTER_INFO",
         payload: {
-          cover: "/media/monster-juice/khaos.png",
+          cover: "/media/monster-juice/khaos.webp",
           description: [
             `Después de meses en el laboratorio, creamos Juice Monster.`,
             `Empezamos con nuestro sabor original de Monster, mezclamos una
@@ -41,7 +41,7 @@ function MonsterJuice() {
       dispatch({
         type: "SET_MONSTER_INFO",
         payload: {
-          cover: "/media/monster-juice/mango-loco.png",
+          cover: "/media/monster-juice/mango-loco.webp",
           description: [
             `En víspera del 1 de noviembre año tras año, amigos y familiares se reúnen para celebrar el Día de Muertos.`,
             `Ofrendas llenas de misticismo, comida y bebidas atraen las almas de los difuntos para unirse a la celebración.`,
@@ -61,7 +61,7 @@ function MonsterJuice() {
       dispatch({
         type: "SET_MONSTER_INFO",
         payload: {
-          cover: "/media/monster-juice/pipeline-puch.png",
+          cover: "/media/monster-juice/pipeline-puch.webp",
           description: [
             `Banzai Pipeline es una de las olas más famosas del mundo localizada en la legendaria costa norte de la isla hawaiana de Oahu, cobra vida durante algunos meses de cada invierno.`,
             `En honor esta épica fuerza de la naturaleza, creamos Juice Monster Pipeline Punch. La mezcla perfecta de los mejores sabores que Hawái puede ofrecer: `,
@@ -100,14 +100,14 @@ function MonsterJuice() {
           className="active-drink"
           onClick={handleClick("monster-khaos")}
         >
-          <img src="/media/monster-juice/khaos-drink.png" alt="monster" />
+          <img src="/media/monster-juice/khaos-drink.webp" alt="monster" />
         </div>
         <div
           id="mango-loco"
           className="inactive"
           onClick={handleClick("monster-mango")}
         >
-          <img src="/media/monster-juice/mango-loco-drink.png" alt="monster" />
+          <img src="/media/monster-juice/mango-loco-drink.webp" alt="monster" />
         </div>
         <div
           id="pipeline-punch"
@@ -115,7 +115,7 @@ function MonsterJuice() {
           onClick={handleClick("monster-punch")}
         >
           <img
-            src="/media/monster-juice/pipeline-punch-drink.png"
+            src="/media/monster-juice/pipeline-punch-drink.webp"
             alt="monster"
           />
         </div>

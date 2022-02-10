@@ -5,7 +5,7 @@ function NavBar() {
   return (
     <nav className="navigation">
       <div className="brand">
-        <img src="/media/monster-energy/monster-energy.png" alt="monster" />
+        <img src="/media/monster-energy/monster-energy.webp" alt="monster" />
       </div>
       <div className="navigation-options">
         <div>
